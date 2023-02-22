@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="YetloSocial">
+
+<test name="Banner Test">
+
+<parameter name="browser" value="chrome"></parameter>
+
+<classes>
+<class name="com.BannerTestcase.TC_Banner_01"/> 
+<class name="com.BannerTestcase.TC_ClearBanner_02"/>
+
+<class name="com.BannerTestcase.TC_Edit_01"/> 
+<class name="com.BannerTestcase.TC_Record_01"/>
+<class name="com.BannerTestcase.TC_Search_01"/> 
+<class name="com.BannerTestcase.TC_SortTest_01"/> 
+
+<class name="com.FrameTestCase.RecordFrame"/>
+<class name="com.FrameTestCase.SearchFrame"/>
+<class name="com.FrameTestCase.SortFrame"/>
+<class name="com.FrameTestCase.TC_AddFrame_01"/>
+<class name="com.FrameTestCase.EditFrame"/>
+<class name="com.FrameTestCase.ClearAddFrame"/>
+
+
+<class name="com.StyleTestcase.TC_ActionEdit_01"/>
+<class name="com.StyleTestcase.TC_ActionEditClear_02"/>
+<class name="com.StyleTestcase.TC_AddStyle_01"/>
+
+<class name="com.StyleTestcase.TC_Edit_01"/>
+<class name="com.StyleTestcase.TC_RecordPerPage_01"/>
+<class name="com.StyleTestcase.TC_Search_01"/>
+<class name="com.StyleTestcase.TC_Sort_01"/>
+
+<class name="com.CustomerTestcase.TC_Actionclass_01"/>
+<class name="com.CustomerTestcase.TC_CustomersAndSort_01"/>
+
+<class name="com.CustomerTestcase.TC_Edit_01"/>
+<class name="com.CustomerTestcase.TC_RecordPage_01"/>
+<class name="com.CustomerTestcase.TC_Search_01"/>
+
+<class name="com.ordersTestcase.TC_Action_01"/>
+
+<class name="com.ordersTestcase.TC_Orders_01"/>
+<class name="com.ordersTestcase.TC_Records_01"/>
+<class name="com.ordersTestcase.TC_Search_01"/>
+<class name="com.ordersTestcase.TC_Sort_01"/>
+
+<class name="com.NotificationTestcase.TC_Search_01"/>
+<class name="com.NotificationTestcase.TC_Record_01"/>
+<class name="com.NotificationTestcase.TC_SendNotification_01"/>
+<class name="com.NotificationTestcase.TC_Sort_01"/>
+
+<class name="com.BusniessCategoriesTestcase.TC_AddCategory_01"/>
+<class name="com.BusniessCategoriesTestcase.TC_Search_01"/>
+<class name="com.BusniessCategoriesTestcase.TC_Sort_01"/>
+<class name="com.BusniessCategoriesTestcase.TC_Record_01"/>
+<class name="com.BusniessCategoriesTestcase.TC_Action_01"/>
+
+<class name="com.BusniessCategoriesTestcase.TC_Edit_01"/>
+
+<class name="com.OtherPosterCategoriesTestcase.TC_Action_01"/>
+<class name="com.OtherPosterCategoriesTestcase.TC_AddPoster_01"/>
+
+<class name="com.OtherPosterCategoriesTestcase.TC_Edit_01"/>
+<class name="com.OtherPosterCategoriesTestcase.TC_Record_01"/>
+<class name="com.OtherPosterCategoriesTestcase.TC_Search_01"/>
+<class name="com.OtherPosterCategoriesTestcase.TC_Sort_01"/>
+
+<class name="com.SettingsTestcase.TC_Settings_01"/>
+
+<class name="com.LogoutTestcase.TC_logout_01"/>
+
+
+</classes>
+
+</test>
+</suite>
